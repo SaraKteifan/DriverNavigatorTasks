@@ -9,5 +9,5 @@ function Convert(string){
     return newString.join(' ');
 }
 
-console.log(Convert('the car drove fast'));
+document.getElementById('Result').innerHTML= JSON.stringify(Convert('the car drove fast'));
 

@@ -12,4 +12,5 @@ function arrayReverse(arr){
     return newArr;
 }
 
-console.log(arrayReverse([8, 3, 4, 8, 4, 8]));
+
+document.getElementById('Result').innerHTML= JSON.stringify(arrayReverse([8, 3, 4, 8, 4, 8]));
